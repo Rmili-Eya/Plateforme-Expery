@@ -1,0 +1,36 @@
+.navbar {
+  position: absolute;
+  z-index: 99;
+}
+.navbar.active {
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+}
+.nav-link:hover {
+  color: blue;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 50px;
+}
+.navbar-nav {
+  min-height: 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-nav .nav-item {
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #1a30b8;
+}
+.Buttons {
+  margin-left: 250px;
+  display: flex;
+}
