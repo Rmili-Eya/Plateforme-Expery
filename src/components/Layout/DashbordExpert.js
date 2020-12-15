@@ -1,19 +1,14 @@
-import React , {Component} from 'react';
-import Search from "../DashbordComponents/Search";
-import Profile from "../DashbordComponents/Profile";
+import React, { Component } from 'react'
 
-
-class DashbordExpert extends Component {
-    render() {
-        return (
-           <div>
-              <Search /> 
-         
-              <Profile />
-             
-           </div>
-
-        );
+export class DashbordExpert extends Component{
+    render()
+    {
+        return(
+            <div>
+                <h2> FOR ENPREPENEURS Component</h2>
+            </div>
+        )
     }
 }
+
 export default DashbordExpert ;

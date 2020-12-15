@@ -6,9 +6,9 @@ import Messages from "./components/SideBar/Messages";
 import Calender from "./components/SideBar/Calender";
 import Settings from "./components/SideBar/Settings";
 import Payement from "./components/SideBar/Payement";
-import DashbordExpert from "./components/Layout/DashbordExpert";
+import DashbordEntrepreneur from "./components/Layout/DashbordEntrepreneur";
 import HomePage from './components/HomePage';
-import {Entrepreneur} from  './components/Layout/Entrepreneur';
+import {DashbordExpert} from  './components/Layout/DashbordExpert';
 import {FormSignup} from "./components/Forms/FormSignup";
 import {Login} from "./components/Forms/Login";
 
@@ -33,8 +33,8 @@ class App extends Component {
               <Route path="/calender" component={Calender} />
               <Route path="/settings" component={Settings} />
               <Route path="/payement" component={Payement} />
-             <Route path="/Entrepreneur" component={Entrepreneur} />
              <Route path="/Expert" component={DashbordExpert} />
+             <Route path="/Entrepreneur" component={DashbordEntrepreneur} />
             <Route exact path="/login"  component={Login} />
            <Route exact path="/SignUp"  component={FormSignup} />
 
