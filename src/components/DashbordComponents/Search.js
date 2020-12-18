@@ -4,7 +4,7 @@ import { Navbar, Nav, NavDropdown,Button,Form,FormControl } from "react-bootstra
 export default function Search() {
     return (
         <div>
-          <Navbar className="myNav"  expand="lg ">
+  <Navbar className="myNav"  expand="lg ">
   <Navbar.Brand href="#home" className="expery">
    Expery
   </Navbar.Brand>

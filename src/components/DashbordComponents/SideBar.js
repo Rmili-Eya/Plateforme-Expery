@@ -2,8 +2,7 @@ import React from 'react';
 import '../../Css/style.css'
 import {FaUserCircle} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { Row } from 'react-bootstrap';
-import ListUsers from './ListUsers';
+
 
 
  function Profile() {

@@ -11,6 +11,10 @@ import HomePage from './components/HomePage';
 import {DashbordExpert} from  './components/Layout/DashbordExpert';
 import {FormSignup} from "./components/Forms/FormSignup";
 import {Login} from "./components/Forms/Login";
+import {Custumers} from "./components/SideBar/Custumers"
+import {Sales} from "./components/SideBar/Sales"
+import {Reports} from "./components/SideBar/Reports"
+
 
 class App extends Component {
   render(){
@@ -37,6 +41,12 @@ class App extends Component {
              <Route path="/Entrepreneur" component={DashbordEntrepreneur} />
             <Route exact path="/login"  component={Login} />
            <Route exact path="/SignUp"  component={FormSignup} />
+           <Route path="/custumers" component={Custumers} />
+           <Route path="/sales" component={Sales} />
+           <Route path="/reports" component={Reports} />
+
+
+
 
           </div>
         
